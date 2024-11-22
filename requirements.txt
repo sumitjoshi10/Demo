@@ -5,4 +5,4 @@ pandas
 numpy
 ensure          # To ensure something
 
--e .            # Setup.py
+-e .

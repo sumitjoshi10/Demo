@@ -1,17 +1,17 @@
 pymongo
-pymongo[srv]    # Connect to the cloud
+pymongo[srv]
 dnspython
 pandas
 numpy
-ensure          # To ensure something
+ensure
 
 -e .
 
 #Devlopment Requirement
 
-pytest==7.1.3   # Testing
-tox==3.25.1     # Testing
-black==22.8.0   # Linting 
-flake8==5.0.4   # Linting Code Formating
+pytest==7.1.3
+tox==3.25.1
+black==22.8.0
+flake8==5.0.4
 mypy==0.971
 

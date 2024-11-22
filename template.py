@@ -13,22 +13,22 @@ list_of_files = [
     "src/__init__.py",
     f"src/{package_name}/__init__.py",
     f"src/{package_name}/mongo_crud.py",
-    "src/utils/__init__.py"
+    "src/utils/__init__.py",
     "src/utils/utils.py",
     "src/logger.py",
     "src/exception.py",
     "test/__init__.py",
     "test/unit/__init__.py",
-    "test/unit/unit.py",
+    "test/unit/test_unit.py",
     "test/integration/__init__.py",
-    "test/integration/integration.py",
-    "init_setup.sh", # Setup Shell Script. Will write the All required Linux Command and run it in single shot
-    "requirements.txt",
-    "requirements_dev.txt",
-    "setup.py",
-    "setup.cgf",
-    "pyproject.toml",
-    "tox.ini", # to test the code in local environment
+    "test/integration/test_integration.py",
+    "init_setup.sh",        # Setup Shell Script. Will write the All required Linux Command and run it in single shot
+    "requirements.txt",     # Production requirements
+    "requirements_dev.txt", # Dev Env Requirements inclues the testing packages as extra
+    "setup.py",             # Contains the infotmation of the package
+    "setup.cfg",            # Contains the meta data that is displayed in PYPI. Extended verison of setup.py
+    "pyproject.toml",       # Alternative of stup.cfg but can be used together
+    "tox.ini",              # to test the code in local environment
     "experiments/experiments.ipynb"   
 ]
 

@@ -1,0 +1,8 @@
+pymongo
+pymongo[srv]    # Connect to the cloud
+dnspython       # Connect the Cloud
+pandas
+numpy
+ensure          # To ensure something
+
+-e .            # Setup.py
